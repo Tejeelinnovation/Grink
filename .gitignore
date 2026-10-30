@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+.node_modules.lock
+.pnp
+.pnp.js
+
+# Build and preview output
+dist/
+.output/
+.tanstack/
+.vercel/
+
+# Logs and environment
+*.log
+.env
+.env.*
+!.env.example
+
+# Grok internal runtimes & caches
+.grok/*.log
+.grok/*.pid
+.grok/status
+.grok/preview.log
+.grok/references/
+.grok/skills/
+
+# Diagnostic & test artifacts
+screenshots/
+artifacts/
+
+# OS metadata
+.DS_Store
+Thumbs.db
